@@ -11,6 +11,6 @@ source "${cidir}/lib.sh"
 
 clone_tests_repo
 
-pushd "${tests_repo_dir}"
+#pushd "${tests_repo_dir}"
 .ci/setup.sh
 popd
