@@ -17,7 +17,7 @@ clone_tests_repo()
 
 	go get -d -u "$tests_repo" || true
 
-	pushd "${tests_repo_dir}" && git checkout "${branch}" && popd
+	#pushd "${tests_repo_dir}" && git checkout "${branch}" && popd
 }
 
 run_static_checks()
