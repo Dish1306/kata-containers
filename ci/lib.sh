@@ -6,6 +6,7 @@
 export tests_repo="${tests_repo:-github.com/kata-containers/tests}"
 export tests_repo_dir="$GOPATH/src/$tests_repo"
 export branch="${branch:-2.0-dev}"
+sudo apt-get install -y golang-go
 
 clone_tests_repo()
 {
