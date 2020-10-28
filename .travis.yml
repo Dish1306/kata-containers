@@ -55,10 +55,11 @@ jobs:
   include:
   - name: x86_64 test
     os: linux
-  - name: ppc64le test
-    os: linux-ppc64le
+  - name: arm64 test
+    arch: arm64
+    os: linux
     install: skip
     script: skip
   allow_failures:
-    - name: ppc64le test
+    - name: arm64 test
   fast_finish: true
